@@ -39,6 +39,7 @@ NSString * const AnswerKey = @"Answer";
 - (instancetype)initWithQuestionsPlistAtURL:(NSURL*)questionsURL
 {
     self = [super init];
+    NSLog(@"this is good day");
     
     if (self)
     {
